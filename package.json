@@ -1,0 +1,28 @@
+{
+  "name": "sniff-pkg",
+  "version": "1.0.0",
+  "description": "Check an npm package for red flags before you install it: freshness, install scripts, typosquatting, maintainer churn, and basic hygiene.",
+  "keywords": [
+    "npm",
+    "security",
+    "supply-chain",
+    "typosquatting",
+    "audit",
+    "cli"
+  ],
+  "bin": {
+    "sniff-pkg": "index.js"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "node --test --experimental-test-coverage"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "type": "commonjs"
+}
