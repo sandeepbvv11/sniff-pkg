@@ -1,6 +1,6 @@
 # sniff-pkg
 
-Check an npm package for red flags **before you install it**.
+Check an npm package for red flags.
 
 Zero dependencies — uses only Node built-ins and the public npm registry.
 
